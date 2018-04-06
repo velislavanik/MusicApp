@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="title_activity_song1">Song1Activity</string>
+    <string name="title_activity_song_details">Song Details</string>
+    <string name="desc">Image</string>
+    <string name="song_name">Song name: </string>
+    <string name="artist_name">Artist name: </string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+</resources>
