@@ -19,13 +19,13 @@ public class MainActivity extends AppCompatActivity {
         // Create an ArrayList of Song objects
         final ArrayList<Song> androidSongs = new ArrayList<>();
         androidSongs.add(new Song("Bohemian Rhapsody", "Queen", R.drawable.guitar1));
-        androidSongs.add(new Song("Stairway to Heaven", " Led Zeppelin", R.drawable.guitar2));
-        androidSongs.add(new Song("Imagine", "John Lennon", R.drawable.guitar3));
-        androidSongs.add(new Song("Smells Like Teen Spirit", "Nirvana", R.drawable.guitar4));
-        androidSongs.add(new Song("Hotel California", "Eagles", R.drawable.guitar5));
-        androidSongs.add(new Song("Sweet Child O'Mine", "Guns N' Roses", R.drawable.guitar8));
-        androidSongs.add(new Song("Hey Jude", "The Beatles", R.drawable.guitar9));
-        androidSongs.add(new Song("Like a Rolling Stone", "Bob Dylan", R.drawable.guitar10));
+        androidSongs.add(new Song("Stairway to Heaven", " Led Zeppelin", R.drawable.guitar1));
+        androidSongs.add(new Song("Imagine", "John Lennon", R.drawable.guitar1));
+        androidSongs.add(new Song("Smells Like Teen Spirit", "Nirvana", R.drawable.guitar1));
+        androidSongs.add(new Song("Hotel California", "Eagles", R.drawable.guitar1));
+        androidSongs.add(new Song("Sweet Child O'Mine", "Guns N' Roses", R.drawable.guitar1));
+        androidSongs.add(new Song("Hey Jude", "The Beatles", R.drawable.guitar1));
+        androidSongs.add(new Song("Like a Rolling Stone", "Bob Dylan", R.drawable.guitar1));
 
         // Create an {@link SongAdapter}, whose data source is a list of
         // {@link Song}s. The adapter knows how to create list item views for each item
